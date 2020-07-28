@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  background: linear-gradient(#2f96a3, #303e8f);
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+  padding-top: 30px;
+}
+
+.images {
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  padding-top: 15px;
+  width: 240px;
+  font-size: 5em;
+}
+
+h1 {
+  padding-top: 10px;
+  font-family: montserrat;
+  color: rgba(245, 223, 153, 0.925);
+  font-weight: bolder;
+  font-size: 4em;
+}
+
+h2 {
+  padding-top: 10px;
+  font-family: montserrat;
+  color: rgba(0, 0, 0, 0.925);
+  font-weight: bolder;
+}
+
+@media only screen and (min-width: 768px) {
+  .main {
+    background: linear-gradient(#2f96a3, #303e8f);
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+    padding-top: 30px;
+  }
+  .images {
+    text-align: center;
+    display: block;
+    padding-top: 50px;
+  }
+  img {
+    padding-top: 5px;
+    padding-left: 5px;
+    width: 300px;
+  }
+
+  h1 {
+    padding-top: 10px;
+    font-family: montserrat;
+    color: rgb(241, 245, 29);
+    font-weight: bolder;
+    font-size: 6em;
+  }
+  h2 {
+    text-align: center;
+    font-size: 3em;
+    padding-top: 10px;
+    font-family: montserrat;
+    color: white;
+    font-weight: bolder;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .main {
+    background: linear-gradient(#2f96a3, #303e8f);
+    height: 150vh;
+    width: 110%;
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+    padding-top: 30px;
+  }
+  .images {
+    display: flex;
+    flex-direction: row;
+  }
+  img {
+    padding-top: 5px;
+    padding-left: 10px;
+    width: 260px;
+  }
+  h1 {
+    padding-top: 10px;
+    font-family: montserrat;
+    color: #def86c;
+    font-weight: bolder;
+    font-size: 12em;
+  }
+  h2 {
+    text-align: center;
+    font-size: 4em;
+    padding-top: 10px;
+    font-family: montserrat;
+    color: #a2d65d;
+    font-weight: bolder;
+  }
+}
