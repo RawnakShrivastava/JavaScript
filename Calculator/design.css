@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  padding-top: 100px;
+  font-family: montserrat;
+  text-align: center;
+  color: rgb(218, 230, 177);
+  font-size: 3.5em;
+  font-weight: bold;
+}
+
+.main {
+  background: linear-gradient(#529399, #6aa1a5);
+  width: 100%;
+  height: 100vh;
+  opacity: 90%;
+}
+.display {
+  padding-top: 20px;
+  justify-content: center;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+.display #screen {
+  box-shadow: 0 2px 3px 0 black solid;
+  height: 55px;
+  width: 150px;
+  font-size: 3em;
+  background: rgb(248, 238, 218);
+  font-family: montserrat;
+}
+.display #clear {
+  height: 46px;
+  width: 72px;
+  margin: 8px -10px;
+
+  font-size: 1em;
+  display: block;
+  border-radius: 8%;
+  background-color: #b1e2e5; /* Green */
+  border: none;
+  color: rgb(17, 18, 19);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  font-family: montserrat;
+}
+.buttons1 {
+  padding-top: 35px;
+}
+.buttons1,
+.buttons2,
+.buttons3,
+.buttons4 {
+  padding-left: 35px;
+}
+
+.button {
+  font-size: 1em;
+  display: block;
+  border-radius: 8%;
+  background-color: #b1e2e5; /* Green */
+  border: none;
+  color: rgb(17, 18, 19);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: montserrat;
+}

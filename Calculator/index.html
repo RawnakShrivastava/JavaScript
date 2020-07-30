@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="design.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="main">
+      <h1>Calculator</h1>
+      <div class="display">
+        <input type="text" id="screen" placeholder="" />
+        <input type="button" value="C" onclick="clr()" id="clear" />
+      </div>
+      <div class="buttons">
+        <div class="buttons1">
+          <button type="submit" onclick="show('1')" class="button button1">
+            1
+          </button>
+          <button type="submit" onclick="show('2')" class="button button2">
+            2
+          </button>
+          <button type="submit" onclick="show('3')" class="button button3">
+            3
+          </button>
+          <button type="submit" onclick="show('+')" class="button button+">
+            +
+          </button>
+        </div>
+        <div class="buttons2">
+          <button type="submit" onclick="show('4')" class="button button1">
+            4
+          </button>
+          <button type="submit" onclick="show('5')" class="button button2">
+            5
+          </button>
+          <button type="submit" onclick="show('6')" class="button button3">
+            6
+          </button>
+          <button type="submit" onclick="show('-')" class="button button+">
+            -
+          </button>
+        </div>
+        <div class="buttons3">
+          <button type="submit" onclick="show('7')" class="button button1">
+            7
+          </button>
+          <button type="submit" onclick="show('8')" class="button button2">
+            8
+          </button>
+          <button type="submit" onclick="show('9')" class="button button3">
+            9
+          </button>
+          <button type="submit" onclick="show('/')" class="button button+">
+            /
+          </button>
+        </div>
+        <div class="buttons4">
+          <button type="submit" onclick="show('.')" class="button button1">
+            .
+          </button>
+          <button type="submit" onclick="show('0')" class="button button2">
+            0
+          </button>
+          <button type="submit" onclick="result()" class="button button3">
+            =
+          </button>
+          <button type="submit" onclick="end()" class="button button+">
+            E
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./custom.js"></script>
+</html>
