@@ -1,3 +1,5 @@
+//BASIC JavaScript 
+
 //Operator Coding Challenge
 
 // var heightJohn = 6.5;
@@ -77,33 +79,70 @@
 // var TotalBill = [tips[0] + bill[0], tips[1] + bill[1], tips[2] + bill[2]];
 // console.log(TotalBill);
 
+================================================================================================//
+
+Coding Challenge 4
+
+var john = {
+    fullName : 'John Smith',
+    height : 6.2,
+    mass : 80,
+    calcBMI : function(){
+     this.BMI = this.mass/(this.height * this.height);
+     return this.BMI;
+    },
+};
+john.calcBMI();
+var mark = {
+    fullName : 'Mark Doe',
+    height : 5.4,
+    mass : 90,
+    calcBMI : function(){
+     this.BMI = this.mass/(this.height * this.height);
+     return this.BMI;
+    },
+};
+mark.calcBMI();
+
+john.BMI >  mark.BMI ? console.log(john.fullName + ' has higher BMI ' + john.BMI) : console.log(mark.fullName + ' has higher BMI ' + mark.BMI);
+
+================================================================================================//
+
+coding chalenge 5
+
+var john = {
+  fullname: "John Abraham",
+  bills: [124, 48, 268, 180, 42],
+  calculatetip: function () {
+    this.tips = [];
+    this.finalbill = [];
+
+    for(var i = 0 ; i < this.bills.length; i++) {
+      var percentage;
+      var bill = this.bills[i];
+      if (bill < 50) {
+        percentage = 0.2;
+      } else if (bill > 50 && bill < 200) {
+        percentage = 0.15;
+      } else {
+        percentage = 0.1;
+      }
+      this.tips[i] = bill * percentage;
+      this.finalbill[i] = bill + bill * percentage;
+    }
+  },
+};
+function calcAvg(tips) {
+  var sum = 0;
+  for (var i = 0; i < tips.length; i++) {
+    sum += tips[i];
+  }
+  return sum / tips.length;
+}
+
+// john.calculatetip();
+// john.average = calcAvg(john.tips);
+// console.log(john);
 //================================================================================================//
 
-//Coding Challenge 4
 
-// var john = {
-//     fullName : 'John Smith',
-//     height : 6.2,
-//     mass : 80,
-//     calcBMI : function(){
-//      this.BMI = this.mass/(this.height * this.height);
-//      return this.BMI;
-//     },
-// };
-// john.calcBMI();
-// var mark = {
-//     fullName : 'Mark Doe',
-//     height : 5.4,
-//     mass : 90,
-//     calcBMI : function(){
-//      this.BMI = this.mass/(this.height * this.height);
-//      return this.BMI;
-//     },
-// };
-// mark.calcBMI();
-
-//john.BMI > mark.BMI ? console.log(john.fullName + ' has higher BMI ' + john.BMI) : console.log(mark.fullName + ' has higher BMI ' + mark.BMI);
-
-//================================================================================================//
-
-console.log("Hello World");
