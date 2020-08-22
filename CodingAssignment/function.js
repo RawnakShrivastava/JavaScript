@@ -1,17 +1,19 @@
-document.getElementsByClassName("btn-primary").disabled = true;
-var buttonRemove = document.getElementsByClassName("btn-danger");
-for (var i = 0; i < buttonRemove.length; i++) {
-  var button = buttonRemove[i];
-  button.addEventListener("click", function (event) {
-    var buttonClicked = event.target;
-    buttonClicked.parentElement.parentElement.remove();
-  });
+var removeCartItemButtons = document.getElementsByClassName("btn-danger");
+for (var i = 0; i < removeCartItemButtons.length; i++) {
+  var button = removeCartItemButtons[i];
+  button.addEventListener("click", removeCartItem);
 }
 
 var addToCartButtons = document.getElementsByClassName("add");
 for (var i = 0; i < addToCartButtons.length; i++) {
   var button = addToCartButtons[i];
   button.addEventListener("click", addToCartClicked);
+}
+
+function removeCartItem(event) {
+  var buttonClicked = event.target;
+  buttonClicked.parentElement.parentElement.remove();
+  updateCartTotal();
 }
 
 function addToCartClicked(event) {
@@ -25,6 +27,13 @@ function addToCartClicked(event) {
   addToCart(productName, productImage, productPrice);
 
   // console.log(productName + ":" + productPrice);
+}
+function quantityChanged(event) {
+  var input = event.target;
+  if (isNaN(input.value) || input.value <= 0) {
+    input.value = 1;
+  }
+  updateCartTotal();
 }
 
 function addToCart(productName, productImage, productPrice) {
@@ -57,4 +66,23 @@ function addToCart(productName, productImage, productPrice) {
   if (cartRowContents.length != 0) {
     document.getElementsByClassName("btn-primary").disabled = false;
   }
+}
+
+function updateCartTotal() {
+  var cartItemContainer = document.getElementsByClassName("cart-items")[0];
+  var cartRows = cartItemContainer.getElementsByClassName("cart-row");
+  var total = 0;
+  for (var i = 0; i < cartRows.length; i++) {
+    var cartRow = cartRows[i];
+    var priceElement = cartRow.getElementsByClassName("cart-price")[0];
+    var quantityElement = cartRow.getElementsByClassName(
+      "cart-quantity-input"
+    )[0];
+    var price = parseFloat(priceElement.innerText.replace("$", ""));
+    var quantity = quantityElement.value;
+    total = total + price * quantity;
+  }
+  total = Math.round(total * 100) / 100;
+  document.getElementsByClassName("cart-total-price")[0].innerText =
+    "$" + total;
 }
