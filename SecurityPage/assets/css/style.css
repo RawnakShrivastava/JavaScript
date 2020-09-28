@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.first {
+  z-index: -1;
+  margin: auto;
+  width: 90%;
+  margin-top: 20px;
+  height: 70px;
+  display: flex;
+  background-color: lightgray;
+  border-radius: 10px;
+}
+.reset {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  /* margin: auto;
+  top: 50%;
+  left: 50%; */
+  margin: auto;
+  font-weight: bold;
+  margin-left: 100px;
+  font-size: 2em;
+}
+
+.resetpass {
+  color: green;
+  background-color: rgb(64, 187, 64);
+  margin: auto;
+  margin-left: 900px;
+  /* margin-left: 700px; */
+}
