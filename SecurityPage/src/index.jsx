@@ -1,10 +1,11 @@
-import React from 'react';
-import { render } from 'react-dom';
+import React from "react";
+import { render } from "react-dom";
 
-import MainRoutes from './routes/Routes';
+import MainRoutes from "./routes/Routes";
 
-const Main = () => (
-    <MainRoutes />
-);
+const Main = () => <MainRoutes />;
 
-render(<Main />, document.getElementById("app"));
+window.onload = () => {
+  render(<Main />, document.getElementById("app"));
+  module.hot.accept();
+};

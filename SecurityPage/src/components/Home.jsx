@@ -8,21 +8,18 @@ class Home extends Component {
     return (
       <div className="main">
         <div className="first">
-          <div className="reset">Reset</div>
-          <Button variant="primary" className="resetpass">
+          <span className="reset">Reset Password</span>
+          <Button variant="Success" className="resetpass">
             Set Password
           </Button>{" "}
         </div>
-        <div className="first">
-          <div className="reset">Reset</div>
-          <Button variant="primary" className="resetpass">
-            Set Password
-          </Button>{" "}
+        <div className="second">
+          <div className="reset">set</div>
         </div>
-        <div className="first">
-          <div className="reset">Reset</div>
-          <Button variant="primary" className="resetpass">
-            Set Password
+        <div className="third">
+          <div className="reset">Delete my Account</div>
+          <Button variant="Danger" className="delacc">
+            Delete Account
           </Button>{" "}
         </div>
       </div>
