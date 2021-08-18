@@ -1,0 +1,413 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar {
+    position: sticky !important;
+}
+.navbar {
+    position: fixed !important;
+    height: 100px;
+    background-color: rgb(8, 5, 26) !important;
+    width: 100%;
+    padding: 0;
+}
+.navbar-brand {
+    font-family: poppins;
+    margin-left: 30px;
+    font-size: calc(4px + 3vw);
+    color :rgb(222, 187, 243) !important ;
+
+} 
+.navbar-brand:hover{
+    color :rgb(129, 245, 111) !important;
+    border-radius: 10px;
+    text-align: center;
+
+}
+.navbar-collapse {
+    font-family: poppins;
+    justify-content: flex-end !important;
+    font-size: 1.3em;
+}
+.nav-link {
+    color: rgb(209, 233, 236) !important;
+    padding : 25px 35px 25px 35px !important;
+    font-size: calc(3px + 1vw);
+    font-family: poppins;
+
+}
+.nav-item :hover{
+    background-color: rgb(58, 58, 55) !important;
+    color :rgb(129, 245, 111) !important;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.show {
+    float : right;
+    position: absolute;
+    top : 120px;
+    right : 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+
+    animation-name: example;
+    animation-duration: .5s;
+}
+@keyframes example {
+    0%  {top:-1000px;}
+
+    100% {top:120px;}
+}
+
+.show > .navbar-nav {  
+    background-color: rgb(8, 5, 26) !important;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: calc(2px + 1.5vw);
+    overflow: hidden;
+    padding: 10px;
+}
+.nav-item :hover {
+    background-color: rgb(58, 58, 55) !important;
+    color :rgb(129, 245, 111) !important;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+}
+
+/* Sections */
+.sections{
+    position: absolute;
+    top : 100px;
+    width: 100%;
+    z-index: -1;
+    overflow-x: hidden;
+    background: whitesmoke;
+    /* background: url("https://www.fromanniek.com/wp-content/uploads/2018/06/0587f251249217.58e7079c0894c.gif"); */
+
+}
+
+/* Section1 -- banner */
+.section1 {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(8, 5, 26) !important;
+    clip-path: polygon(52% 0, 100% 0, 100% 80%, 50% 100%, 0 80%, 0 0);
+    
+    }
+    .banner1 {
+        padding-top: 160px; 
+        margin : 0 20px 0 20px;  
+    }
+    .gif {
+        width: 550px;
+        border-radius: 10px;
+        opacity: 90%;
+    }
+    .text{
+        height: 100%;
+        font-size: calc(2px + 3.5vw);
+        color : rgb(181, 245, 161);  
+        margin-left: 80px; 
+        animation: colorChange 8s ease infinite;
+        font-family: poppins;
+
+    }
+    @keyframes colorChange{
+        0%{
+            color : rgb(61, 144, 240);
+        }
+        100%{
+            color : rgb(115, 248, 115);
+        }
+    }
+/* Section 2 -- About*/
+
+.section2{
+        height: 100vh;
+        flex-direction: column;
+        justify-content: start;
+        background-color: rgb(228, 245, 188);
+        /* background: url("https://www.fromanniek.com/wp-content/uploads/2018/06/0587f251249217.58e7079c0894c.gif"); */
+        margin-top : -200px;
+        overflow-y: scroll;
+
+
+    }
+    .about-title{
+        font-family: poppins;
+        font-size: 5rem;
+        padding : 10px;
+        margin-top: 250px;
+        border-bottom: 1px solid black;
+    }
+    .dp{  
+        padding : 5px;
+        border-radius: 100%;
+        border: 10px solid rgb(30, 31, 34);
+        width: 500px;
+        height: 500px;
+        margin : 0 100px 0 50px;
+        transition: width 1s, height 1s;
+    }
+    .dp:hover{
+        width: 520px;
+        height : 520px;
+        border: 10px solid rgb(9, 12, 22);
+
+    }
+    .banner2{
+        margin-top: 50px;
+        padding: 0;
+        width: 100%;
+    }
+    .content{
+        max-width: 700px;
+        margin-left: 30px;
+        font-size: 2em;
+    }
+
+
+    /* Section3 -- Skills */
+.section3{
+        height: 110vh;
+        flex-direction: column;
+        justify-content: start;
+        background-color: rgb(228, 245, 188);
+        /* background: url("https://www.fromanniek.com/wp-content/uploads/2018/06/0587f251249217.58e7079c0894c.gif"); */
+        clip-path: circle(63.1% at 67% 51%);
+
+    }
+    .skills_gif{
+        margin-left: -150px;
+        width: 750px;
+        height: 550px;
+        border-radius: 20px;
+    }
+    .banner3{
+        margin-top: 80px;
+    }
+    .skills-title{
+        font-family: poppins;
+        font-size: 5rem;
+        padding : 10px;
+        margin-top: 120px;
+        border-bottom: 1px solid black;
+        color : whitesmoke;
+    }
+    .grid-container {
+        margin-left: 100px;
+        display: grid;
+        grid-template-columns: auto auto ;
+      }
+    .grid-item > .album {
+        padding : 10px;
+        border: none;
+        width: 200px;
+        height: 200px;
+        opacity: 80%;
+    }
+    .album:hover{
+        opacity: 200%;
+        cursor: pointer;
+
+    }
+    .section4{
+        height: 80px;
+        background-color: rgb(12, 12, 12);
+    }
+    .btn-social-icon{
+        margin-left: 20px;
+        color  : white;
+    }
+    .btn-social-icon:hover{
+        background-color: #3F729B;
+    }
+
+    /* Responsive Layout */
+@media only screen and (max-width: 1000px) {
+        /* section1 */
+
+        .gif{
+            width: 350px;
+        }
+        .section1{
+            height: 650px;
+        }
+        .banner1{
+            flex-direction: column;
+            padding-top: 20px;
+        }
+        .text{
+            margin-top: 50px;
+            margin-left: 0;
+            font-size: 2em;
+        }
+
+         /* Section 2 */
+         .section2{
+            margin-top : -120px;
+
+         }
+         .banner2{
+             flex-direction: column;
+         }
+         .about-title{
+             font-size: 3em;
+             padding : 10px;
+             margin-top: 140px;
+         }
+         .dp{
+             width: 350px;
+             height: 350px;
+             margin: auto;
+         }
+         .dp:hover{
+            width: 320px;
+            height : 320px;
+            border: 5px solid rgb(5, 24, 80);
+    
+        }
+         .content{
+            font-size: calc(2px + 2vw);
+            margin : 80px 0 0 0 ;
+            width: 400px;
+            overflow: hidden;
+            padding : 10px;
+         }
+
+         /* Section3 */
+
+        .section3{
+             overflow-y: scroll;
+         }
+        .skills-title{
+            font-family: poppins;
+            font-size: 3em;
+            padding : 10px;
+            border-bottom: 1px solid black;
+        }
+        .skills_gif{
+            width: 600px;
+            height: 450px;
+            margin: 0;
+        }
+        .banner3{
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 50px;
+        }
+        .grid-container {
+            grid-template-columns: auto auto auto;
+            display: grid;
+            margin: 0;          
+        }
+    }
+@media only screen and (max-width: 500px) {
+    
+        /* Nav */
+        .navbar {
+            position: fixed !important;
+            height: 90px;
+            width: 100%;
+            padding: 0;
+        }
+        .navbar-brand {
+            font-family: poppins;
+            margin-left: 30px;
+            font-size: calc(4px + 3.5vw);
+            color :rgb(248, 236, 255) !important ;
+        }
+        .show {
+            position: absolute;
+            top : 90px;
+            width: 200px;
+            animation-name: example;
+            animation-duration: .5s;
+        }
+        /* section1 */
+        .sections{
+            top : 80px;
+        }
+        .gif{
+            width: 200px;
+        }
+        .section1{
+            height: 450px;
+        }
+        .banner1{
+            flex-direction: column;
+            padding-top: 40px;
+        }
+        .text{
+            margin-top: 30px;
+            margin-left: 0;
+            font-size: 1.4em;
+        }
+        /* Section 2 */
+        .section2{
+            padding-top: 50px;
+            margin-top: -80px;
+        }
+        .banner2{
+            flex-direction: column;
+        }
+        .about-title{
+            font-size: 2em;
+            padding : 10px;
+            margin-top: 50px;
+        }
+        .dp{
+            width: 250px;
+            height: 250px;
+            margin: auto;
+        }
+        .content{
+            font-size: calc(2px + 3vw);
+            margin : 20px 0 0 0 ;
+            width: 200px;
+            overflow: hidden;
+            padding : 10px;
+        }
+
+        /* Section3 */
+        .section3{
+            overflow-y: scroll;
+        }
+       .skills-title{
+           font-family: poppins;
+           font-size: 3em;
+           padding : 10px;
+           border-bottom: 1px solid black;
+       }
+       .skills_gif{
+           width: 300px;
+           height: 250px;
+           margin: 0;
+       }
+       .banner3{
+           display: flex;
+           flex-direction: column;
+           padding-bottom: 50px;
+       }
+       .grid-container {
+           grid-template-columns: auto  ;
+           display: grid;
+           margin: 0;  
+           width: 60vw;        
+       }
+} 
+
+

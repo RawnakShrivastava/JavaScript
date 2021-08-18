@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    font-family: poppins;
+    width: 100vw;
+    height: 100vh;
+    padding: 0 1rem;
+
+}
+.main .screen{
+    padding: 1rem;
+    overflow: hidden;  
+}
+.chat-container{
+    width: 100%;
+}
+.chat-container:hover{
+    overflow-y: scroll;
+}
+.input-area{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+input#userInput {
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    width: 80%;
+    padding: 11px 20px;
+    outline: none;
+    border: 1px solid #9c9c9c;
+}
+button.sendMessage {
+    width: 20%;
+    padding: 9px;
+    background: #393939;
+    border: none;
+    box-shadow: 0 4px 8px rgb(0 0 0 / 10%);
+    font-family: Poppins;
+    color: #fff;
+    margin-left: 10px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+ul#chatbox {
+    border-radius: 12px;
+    margin: 10px 0;
+    font-size: 1rem;
+    padding: 2rem;
+    height: 75%;
+    background: #efefef;
+}
+ul#chatbox li{
+    padding: 10px 12px;
+    list-style: none;
+    margin: 10px 0;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    border-radius: 5px;
+}
+#chatbox li.sentMessage{
+    background: #d2e8db ;
+}
+#chatbox li.recievedMessage{
+    background: #b2c7bb;
+}
+#chatbox li{
+    position: relative;
+}
+#chatbox li.recievedMessage::before{
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 24px solid #b2c7bb;
+    border-right: 12px solid transparent;
+    border-top: 12px solid #b2c7bb;
+    border-bottom: 20px solid transparent;
+    left: 0px;
+    bottom: -15px;
+}
+
+.user{
+    margin: 25px 0;
+    background-color: #efefef;
+    border-radius: 12px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+}
+.user img,
+.user-info img{
+    width: 80px;
+    border-radius: 100px;
+    margin-right: 20px;
+}
+.user-info{
+    padding: 10px;
+    margin: 10px 0;
+    background: #d6d6d6 ;
+    border-radius: 12px;
+}
+.user-info img{
+    padding: 5px;
+    z-index: 1;
+}
+.user-info .about p{ 
+    margin-bottom: 0;
+}
+.user-info .about{
+    display: inline-block;
+}
+
