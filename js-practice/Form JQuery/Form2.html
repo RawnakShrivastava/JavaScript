@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <h1 class="animate__animated animate__backInDown">Select Multiple</h1>
+            <form action="" class = "form-new">
+                <label>Select All</label>
+                <input type="checkbox" id="ckbCheckAll" />
+                    <div id="checkBoxes">
+                        <div>
+                            <label><input type="checkbox" class="checkBoxClass" id="Checkbox1" name="Item A"/> Item A</label>
+                        </div>
+                        <div>
+                            <label><input type="checkbox" class="checkBoxClass" id="Checkbox2" name="Item B"/> Item B</label>
+                        </div>
+                        <div>
+                            <label><input type="checkbox" class="checkBoxClass" id="Checkbox3" name="Item C"/> Item C</label>
+                        </div>
+                        <div>
+                            <label><input type="checkbox" class="checkBoxClass" id="Checkbox4" name="Item D"/> Item D</label>
+                        </div>
+                        <div>
+                            <label><input type="checkbox" class="checkBoxClass" id="Checkbox5" name="Item E"/> Item E</label>
+                        </div>
+                    </div>
+            </form>
+            <h1>Add Fields</h1>
+            <form action="" class = "form-new form-fields">
+                <div class="fields">
+                    <div class="field">
+                        <label for="">Name : </label><input type="text" class="name" name="name">
+                        <label for="">Email : </label><input type="text" class="email" name="email">
+                        <label for="">KeyWords :</label><input type="text" class="keywords" name="keywords">
+                        <button type = "submit" class="add-field">Add</button>
+                    </div>
+                </div>
+                <button type="submit" class = "submit-form">Submit</button>
+            </form>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="js/Form2.js"></script>
+</body>
+</html>
