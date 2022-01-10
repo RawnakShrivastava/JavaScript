@@ -2,18 +2,22 @@ import React , { useState } from 'react';
 import ExpenseDate from '../Expenses/ExpenseDate';
 import Card from '../UI/Card';
 import '../Expenses/ExpenseItem.css';
-import NewExpense from '../NewExpense/NewExpense';
-
 
 const ExpenseItem = (props) => {
 
     const [title,setTitle] = useState(props.title);
+    const [updateName,setUpdateName] = useState('');
 
     const clickHandler = () => {
-        setTitle('Updated');
-        console.log(title);
+        if(updateName !== ''){
+            setTitle(updateName);
+        }
+        setTitle("Updated..");
+        setUpdateName('');
     };
-
+    const updateNameChange = (event) => {
+        setUpdateName(event.target.value);
+    };
 
     return (
         <Card className = "expense-item">
@@ -21,6 +25,7 @@ const ExpenseItem = (props) => {
             <div className = "expense-item__description">
                 <h2>{title}</h2>
                 <div className = "expense-item__price">{props.amount}</div>
+                <input className="updated-name" type="text" value = {updateName} onChange = {updateNameChange}></input>
             </div> 
             <button onClick= {clickHandler}>Change Title</button>
         </Card> 

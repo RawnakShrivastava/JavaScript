@@ -19,18 +19,17 @@ const Expenseform = (props) => {
 
     const submitHandler = (event) => {
         event.preventDefault();
-
+        var _id = Math.floor(Math.random() * 11) + "";
         const expenseData = {
+            key : "e" + _id,
             title : enteredTitle,
             amount : enteredAmount,
             date : new Date(enteredDate)
         }
-
         props.onSaveExpenseData(expenseData);
         setEnteredDate('');
         setEnteredTitle('');
-        setEnteredAmount('');
-        
+        setEnteredAmount('');    
     }
     return (
     <form onSubmit = {submitHandler}>
@@ -51,8 +50,7 @@ const Expenseform = (props) => {
         <div className = "new-expense__actions">
             <button type = "submit" >Add Expense</button>
         </div>
-    </form>
-    
+    </form>  
     )}
 
 export default Expenseform;

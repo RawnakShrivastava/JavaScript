@@ -25,7 +25,7 @@ function Row({title, fetchUrl,isLargeRow}) {
         setCurrentAsset(movie);
         setIsExpanded(!isExpanded); 
         console.log(h);
-        window.scrollTo(0,h);
+        // window.scrollTo(0,h);
 
     }
     // console.log(movies);

@@ -6,11 +6,12 @@
     font-family: poppins;
     width: 100vw;
     height: 100vh;
-    padding: 0 1rem;
+    padding: 1rem;
 
 }
 .main .screen{
-    padding: 1rem;
+    position: relative;
+    /* padding: 1rem; */
     overflow: hidden;  
 }
 .chat-container{
@@ -46,10 +47,10 @@ button.sendMessage {
 }
 ul#chatbox {
     border-radius: 12px;
-    margin: 10px 0;
+    /* margin: 10px 0; */
     font-size: 1rem;
-    padding: 2rem;
-    height: 75%;
+    /* padding: 2rem; */
+    height: 87%;
     background: #efefef;
 }
 ul#chatbox li{
@@ -83,7 +84,7 @@ ul#chatbox li{
 }
 
 .user{
-    margin: 25px 0;
+    margin: 0 0 25px 0;
     background-color: #efefef;
     border-radius: 12px;
     padding: 1rem;
@@ -101,6 +102,12 @@ ul#chatbox li{
     margin: 10px 0;
     background: #d6d6d6 ;
     border-radius: 12px;
+
+    position: absolute;
+    width: 95%;
+    /* margin: 0 auto; */
+    left: 35px;
+    top: 10px;
 }
 .user-info img{
     padding: 5px;
