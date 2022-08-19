@@ -25,3 +25,4 @@ function printName(name){
   console.log(name);
 }
 printName("User 3");
+printName("New User 4");
