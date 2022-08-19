@@ -26,3 +26,9 @@ function printName(name){
 }
 printName("User 3");
 printName("New User 4");
+
+console.log("Hashsd");
+
+console.log("Do sometingll");
+
+
