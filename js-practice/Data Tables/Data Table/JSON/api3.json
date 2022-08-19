@@ -1,0 +1,633 @@
+{
+    "name": "Channels",
+    "available": 61,
+    "start": 0,
+    "limit": 100,
+    "data": [
+      {
+        "id": "cinedigm_alliedvaughn",
+        "cust": "cinedigm",
+        "name": "AlliedVaughn",
+        "status": 1,
+        "url": "http://dashboard.matchpoint.tv/img/scm/channel-logo/AlliedVaughn_logo.png",
+        "description": "For MOD",
+        "creation_date": 1609743364109,
+        "last_modified": 1613653702709
+      },
+      {
+        "id": "cinedigm_amazon_avd",
+        "cust": "cinedigm",
+        "name": "Amazon_AVD",
+        "status": 1,
+        "url": "https://dashboard.matchpoint.tv/img/scm/channel-logo/Amazon_AVD_logo.png",
+        "description": "For Giant",
+        "creation_date": 1634898872740,
+        "last_modified": 1634898872742
+      },
+      {
+        "id": "cinedigm_amazon_svod",
+        "cust": "cinedigm",
+        "name": "Amazon_SVOD",
+        "status": 1,
+        "url": "https://dashboard.matchpoint.tv/img/scm/channel-logo/Amazon_SVOD_logo.png",
+        "description": "For Giant",
+        "creation_date": 1634898926967,
+        "last_modified": 1634898926968
+      },
+      {
+        "id": "cinedigm_bambu",
+        "cust": "cinedigm",
+        "name": "bambu",
+        "alias": [
+          
+        ],
+        "status": 1,
+        "url": "http://dashboard.matchpoint.tv/img/scm/channel-logo/bamboo_logo.png",
+        "description": "The 1st network for top Chinese entertainment.  Way more than Kung-Fu flicks! Check out top serial dramas, rom-coms, action, sci-fi and game shows!\n",
+        "creation_date": 1603867898310,
+        "last_modified": 1641481191568
+      },
+      {
+        "id": "cinedigm_bloody_disgusting",
+        "cust": "cinedigm",
+        "name": "bloody-disgusting",
+        "status": 1,
+        "url": "http://dashboard.matchpoint.tv/img/scm/channel-logo/Bloody-disgusting_logo.png",
+        "description": "The #1 Online Horror Destination is “free screaming” films, new originals, exclusives, video podcasts & “Bloody Bites” shorts.  You’ve been warned!\n",
+        "creation_date": 1603867904827,
+        "last_modified": 1614800405030
+      },
+      {
+        "id": "cinedigm_bobross",
+        "cust": "cinedigm",
+        "name": "bobross",
+        "status": 1,
+        "url": "http://dashboard.matchpoint.tv/img/scm/channel-logo/bob_ross_logo.png",
+        "description": "The official Bob Ross channel!  Get your daily dose of the iconic, bucolic pop culture icon. Find the joys of painting and a thousand tiny accidents!\n",
+        "creation_date": 1603867901344,
+        "last_modified": 1614800386863
+      },
+      {
+        "id": "cinedigm_christian_cinema",
+        "cust": "cinedigm",
+        "name": "Christian Cinema",
+        "status": 1,
+        "url": "https://dashboard.matchpoint.tv/img/scm/channel-logo/christianCinema_logo.png",
+        "description": "For Giant",
+        "creation_date": 1628148827048,
+        "last_modified": 1628148827050
+      },
+      {
+        "id": "cinedigm_cidm_digital",
+        "cust": "cinedigm",
+        "name": "cidm-digital",
+        "status": 1,
+        "url": "http://dashboard.matchpoint.tv/img/scm/channel-logo/CIDM_logo.png",
+        "description": "As the largest independent studio in North America, with special access into the Chinese market, Cinedigm distributes content across every key platform, including theatrical releases, home entertainment, physical formats (DVD, Blu-ray, 4K, disc-on-demand), digital offerings, cable and satellite VOD, and broadcast television.",
+        "creation_date": 1603867914350,
+        "last_modified": 1616721198590
+      },
+      {
+        "id": "cinedigm_cinedigm",
+        "cust": "cinedigm",
+        "name": "Cinedigm",
+        "status": 1,
+        "url": "http://dashboard.matchpoint.tv/img/scm/channel-logo/cinedigm_logo.png",
+        "description": "As the largest independent studio in North America, with special access into the Chinese market, Cinedigm distributes content across every key platform, including theatrical releases, home entertainment, physical formats (DVD, Blu-ray, 4K, disc-on-demand), digital offerings, cable and satellite VOD, and broadcast television.",
+        "creation_date": 1603867911376,
+        "last_modified": 1616721206958
+      },
+      {
+        "id": "cinedigm_comedy_dynamics",
+        "cust": "cinedigm",
+        "name": "comedy-dynamics",
+        "status": 1,
+        "url": "http://dashboard.matchpoint.tv/img/scm/channel-logo/comedy_dynamics_logo.png",
+        "description": "The largest collection of stand-up comedy!   It’s a no drink minimum show 24/7, with the top names of comedy in new & classic performances.\n",
+        "creation_date": 1603867897659,
+        "last_modified": 1614800345245
+      },
+      {
+        "id": "cinedigm_comedydynamics",
+        "cust": "cinedigm",
+        "name": "ComedyDynamics",
+        "status": 1,
+        "url": "http://dashboard.matchpoint.tv/img/scm/channel-logo/comedy_dynamics_logo.png",
+        "description": "The largest collection of stand-up comedy!   It’s a no drink minimum show 24/7, with the top names of comedy in new & classic performances.\n",
+        "creation_date": 1603867922744,
+        "last_modified": 1614800339219
+      },
+      {
+        "id": "cinedigm_comedydynamics_clean",
+        "cust": "cinedigm",
+        "name": "comedydynamics-clean",
+        "status": 1,
+        "url": "http://dashboard.matchpoint.tv/img/scm/channel-logo/comedy_dynamics_clean_logo.png",
+        "description": "The largest collection of stand-up comedy!   It’s a no drink minimum show 24/7, with the top names of comedy in new & classic performances.\n",
+        "creation_date": 1603867899091,
+        "last_modified": 1614800327364
+      },
+      {
+        "id": "cinedigm_common_delivery_papercup",
+        "cust": "cinedigm",
+        "name": "Common-Delivery_Papercup",
+        "status": 1,
+        "url": "https://dashboard.matchpoint.tv/img/scm/channel-logo/papercup_logo.png",
+        "description": "Cinedigm internal \nAV:- 1 Mbps proxy \nCaption:- SCC",
+        "creation_date": 1626087341050,
+        "last_modified": 1626099518018
+      },
+      {
+        "id": "cinedigm_common_delivery_spherex",
+        "cust": "cinedigm",
+        "name": "Common-Delivery_Spherex",
+        "status": 1,
+        "url": "https://dashboard.matchpoint.tv/img/scm/channel-logo/Spherex_logo.png",
+        "description": "Cinedigm internal \nAV:- 1 Mbps proxy\nMetadata standard excel",
+        "creation_date": 1625745339692,
+        "last_modified": 1626087372063
+      },
+      {
+        "id": "cinedigm_contv",
+        "cust": "cinedigm",
+        "name": "CONtv",
+        "status": 1,
+        "url": "http://dashboard.matchpoint.tv/img/scm/channel-logo/contv_logo.png",
+        "description": "Waste the best years of your life on hours of pop culture essentials: enigmatic sci-fi, fantasy, horror, crindgy grindhouse and retro film & TV series\n",
+        "creation_date": 1603867900786,
+        "last_modified": 1626710597749
+      },
+      {
+        "id": "cinedigm_contvanime",
+        "cust": "cinedigm",
+        "name": "contvanime",
+        "status": 1,
+        "url": "http://dashboard.matchpoint.tv/img/scm/channel-logo/contvanim_logo.png",
+        "description": "Meeting the needs of anime fans with acclaimed anime series & movies… cyberpunk, supernatural tales, gripping dramas and epic fantasy adventures!\n",
+        "creation_date": 1603867899741,
+        "last_modified": 1617087128345
+      },
+      {
+        "id": "cinedigm_directtv",
+        "cust": "cinedigm",
+        "name": "DirectTV",
+        "alias": [
+          
+        ],
+        "status": 1,
+        "url": "https://dashboard.matchpoint.tv/img/scm/partner-logo/DirectTV_logo.png",
+        "description": "For Giant",
+        "creation_date": 1640069083818,
+        "last_modified": 1640077742292
+      },
+      {
+        "id": "cinedigm_dish_network",
+        "cust": "cinedigm",
+        "name": "Dish Network",
+        "status": 1,
+        "url": "https://dashboard.matchpoint.tv/img/scm/channel-logo/DishNetwork_logo.png",
+        "description": "For Giant",
+        "creation_date": 1628148919259,
+        "last_modified": 1628148919259
+      },
+      {
+        "id": "cinedigm_dish_est",
+        "cust": "cinedigm",
+        "name": "Dish-EST",
+        "status": 1,
+        "url": "https://dashboard.matchpoint.tv/img/scm/channel-logo/dish-EST_logo.png",
+        "description": "For Giant",
+        "creation_date": 1628149665223,
+        "last_modified": 1628149665223
+      },
+      {
+        "id": "cinedigm_distributionsolutions",
+        "cust": "cinedigm",
+        "name": "DistributionSolutions",
+        "status": 1,
+        "url": "http://dashboard.matchpoint.tv/img/scm/channel-logo/distribution_solutions_logo.png",
+        "description": "For MOD",
+        "creation_date": 1609743339401,
+        "last_modified": 1613654861091
+      },
+      {
+        "id": "cinedigm_docurama",
+        "cust": "cinedigm",
+        "name": "docurama",
+        "status": 1,
+        "url": "http://dashboard.matchpoint.tv/img/scm/channel-logo/Docurama_logo.png",
+        "description": "The 1st documentary network. Enjoy features & TV series spanning arts, politics, science, music & history.  Docurama: Everything Else Is Pure Fiction.\n",
+        "creation_date": 1603867897050,
+        "last_modified": 1614800314867
+      },
+      {
+        "id": "cinedigm_dove",
+        "cust": "cinedigm",
+        "name": "dove",
+        "status": 1,
+        "url": "http://dashboard.matchpoint.tv/img/scm/channel-logo/dove_logo.png",
+        "description": "Dedicated to family-friendly entertainment.  Movies, iconic TV series & kids educational lessons.  Dove Channel brings family viewing back to America.\n",
+        "creation_date": 1603867895856,
+        "last_modified": 1614800299425
+      },
+      {
+        "id": "cinedigm_elrey",
+        "cust": "cinedigm",
+        "name": "ElRey",
+        "status": 1,
+        "url": "https://dashboard.matchpoint.tv/img/scm/channel-logo/ElRey_logo.png",
+        "description": "El Rey Network is an English-language entertainment brand founded by maverick filmmaker Robert Rodriguez (From Dusk Till Dawn, Sin City, Spy Kids, Machete). The Latino-infused network revels in the courage, capacity, and creativity of ordinary people on extraordinary journeys through its unique original programming. In addition, El Rey Network showcases a wide range of iconic feature films and TV series including genre, cult classics, action, and horror/sci-fi.\n",
+        "creation_date": 1625219571654,
+        "last_modified": 1626368865734
+      },
+      {
+        "id": "cinedigm_fandor",
+        "cust": "cinedigm",
+        "name": "fandor",
+        "status": 1,
+        "url": "http://dashboard.matchpoint.tv/img/scm/channel-logo/fandor_logo.png",
+        "description": "A leading source of independent entertainment for movie lovers, featuring handpicked, award-winning independent films, classic movies, documentaries, and foreign films. \n",
+        "creation_date": 1612521072377,
+        "last_modified": 1614800523755
+      },
+      {
+        "id": "cinedigm_fantawild",
+        "cust": "cinedigm",
+        "name": "Fantawild",
+        "status": 1,
+        "url": "http://dashboard.matchpoint.tv/img/scm/channel-logo/Fantawild_logo.png",
+        "description": "Official channel of Fantawild, the premier animation studio in China.\n",
+        "creation_date": 1614800738252,
+        "last_modified": 1614845799056
+      },
+      {
+        "id": "cinedigm_fashionbox",
+        "cust": "cinedigm",
+        "name": "FashionBox",
+        "status": 1,
+        "url": "http://dashboard.matchpoint.tv/img/scm/channel-logo/fasionbox_logo.png",
+        "description": "Top models, designers, and brands, hottest catwalks and all the latest news from the fashion world.\n",
+        "creation_date": 1606196356151,
+        "last_modified": 1614800164029
+      },
+      {
+        "id": "cinedigm_flixfling",
+        "cust": "cinedigm",
+        "name": "Flixfling",
+        "status": 1,
+        "url": "https://dashboard.matchpoint.tv/img/scm/channel-logo/Flixfling_logo.png",
+        "description": "For Giant",
+        "creation_date": 1628149470743,
+        "last_modified": 1628149470744
+      },
+      {
+        "id": "cinedigm_gametoon",
+        "cust": "cinedigm",
+        "name": "gametoon",
+        "status": 1,
+        "url": "http://dashboard.matchpoint.tv/img/scm/channel-logo/gametoon_logo.png",
+        "description": "A worldwide entertainment channel for Millennials revolving around gaming and eSports.\n",
+        "creation_date": 1605193455610,
+        "last_modified": 1614800183844
+      },
+      {
+        "id": "cinedigm_google_avod",
+        "cust": "cinedigm",
+        "name": "Google AVOD",
+        "alias": [
+          
+        ],
+        "status": 1,
+        "url": "https://dashboard.matchpoint.tv/img/scm/partner-logo/google_avod.png",
+        "description": "For Giant",
+        "creation_date": 1637331111105,
+        "last_modified": 1637591523952
+      },
+      {
+        "id": "cinedigm_google_youtube",
+        "cust": "cinedigm",
+        "name": "Google_YouTube",
+        "status": 1,
+        "url": "https://dashboard.matchpoint.tv/img/scm/channel-logo/GoogleYoutube_logo.png",
+        "description": "For Giant",
+        "creation_date": 1632831988391,
+        "last_modified": 1632837048514
+      },
+      {
+        "id": "cinedigm_hoopla",
+        "cust": "cinedigm",
+        "name": "Hoopla",
+        "status": 1,
+        "url": "https://dashboard.matchpoint.tv/img/scm/channel-logo/Hoopla_logo.png",
+        "description": "For Giant",
+        "creation_date": 1628148984553,
+        "last_modified": 1628148984554
+      },
+      {
+        "id": "cinedigm_indemand",
+        "cust": "cinedigm",
+        "name": "InDemand",
+        "status": 1,
+        "url": "https://dashboard.matchpoint.tv/img/scm/channel-logo/inDemandTv_logo.png",
+        "description": "For Giant",
+        "creation_date": 1628149049395,
+        "last_modified": 1628149049396
+      },
+      {
+        "id": "cinedigm_indemand_est",
+        "cust": "cinedigm",
+        "name": "InDemand-EST",
+        "status": 1,
+        "url": "https://dashboard.matchpoint.tv/img/scm/channel-logo/inDemandTvEST_logo.png",
+        "description": "For Giant",
+        "creation_date": 1628149535281,
+        "last_modified": 1628149535282
+      },
+      {
+        "id": "cinedigm_itunes",
+        "cust": "cinedigm",
+        "name": "iTunes",
+        "status": 1,
+        "url": "https://dashboard.matchpoint.tv/img/scm/channel-logo/itunes_logo.png",
+        "description": "For Giant",
+        "creation_date": 1628149111953,
+        "last_modified": 1628149111954
+      },
+      {
+        "id": "cinedigm_lone_star",
+        "cust": "cinedigm",
+        "name": "Lone Star",
+        "status": 1,
+        "url": "http://dashboard.matchpoint.tv/img/scm/channel-logo/Lone_Star_logo.png",
+        "description": "The premier source of classic western content with multiple titles restored in HD including western film, TV and shorts\n",
+        "creation_date": 1616721069235,
+        "last_modified": 1617088599396
+      },
+      {
+        "id": "cinedigm_mytime",
+        "cust": "cinedigm",
+        "name": "mytime",
+        "status": 1,
+        "url": "http://dashboard.matchpoint.tv/img/scm/channel-logo/mytime_logo.png",
+        "description": "Dedicated to the movies we love- heartstopping thrillers, date night romcoms, heartwarming holiday favorites, and original programming.\n\n",
+        "creation_date": 1603867904213,
+        "last_modified": 1614800283249
+      },
+      {
+        "id": "cinedigm_newvideo",
+        "cust": "cinedigm",
+        "name": "newvideo",
+        "status": 1,
+        "url": "http://dashboard.matchpoint.tv/img/scm/channel-logo/new_video_logo.png",
+        "description": "The description of the channel will be shown in this place",
+        "creation_date": 1603867906470,
+        "last_modified": 1613655083578
+      },
+      {
+        "id": "cinedigm_overdrive",
+        "cust": "cinedigm",
+        "name": "OverDrive",
+        "status": 1,
+        "url": "https://dashboard.matchpoint.tv/img/scm/channel-logo/OverDrive_logo.png",
+        "description": "For Giant",
+        "creation_date": 1628149178499,
+        "last_modified": 1628149178499
+      },
+      {
+        "id": "cinedigm_playstation",
+        "cust": "cinedigm",
+        "name": "Playstation",
+        "status": 1,
+        "url": "https://dashboard.matchpoint.tv/img/scm/channel-logo/Playstation_logo.png",
+        "description": "For Giant",
+        "creation_date": 1628149252786,
+        "last_modified": 1628149252787
+      },
+      {
+        "id": "cinedigm_popcornflix",
+        "cust": "cinedigm",
+        "name": "PopcornFlix",
+        "status": 1,
+        "url": "https://dashboard.matchpoint.tv/img/scm/channel-logo/PopcornFlix_logo.png",
+        "description": "For Giant",
+        "creation_date": 1628149302155,
+        "last_modified": 1628149302156
+      },
+      {
+        "id": "cinedigm_pureflix",
+        "cust": "cinedigm",
+        "name": "Pureflix",
+        "status": 1,
+        "url": "https://dashboard.matchpoint.tv/img/scm/channel-logo/Pureflix_logo.png",
+        "description": "For Giant",
+        "creation_date": 1634813216685,
+        "last_modified": 1634822303692
+      },
+      {
+        "id": "cinedigm_redbox_on_demand",
+        "cust": "cinedigm",
+        "name": "Redbox On Demand",
+        "status": 1,
+        "url": "https://dashboard.matchpoint.tv/img/scm/channel-logo/redBox_ondemand_logo.png",
+        "description": "For Giant",
+        "creation_date": 1628149615033,
+        "last_modified": 1628149615034
+      },
+      {
+        "id": "cinedigm_sanctuary",
+        "cust": "cinedigm",
+        "name": "sanctuary",
+        "status": 1,
+        "url": "http://dashboard.matchpoint.tv/img/scm/channel-logo/sanctuary_logo.png",
+        "description": "Our leading-edge, cinematic experience brings best-in-class teachers and inspiring wellness content directly to your mat.\nDiscover meditation, deepen your yoga practice, or play with new breathwork techniques. Each studio’s life-size film wall and enveloping sound immerses you in the class you choose, set in a stunning location from around the globe.",
+        "creation_date": 1603867908018,
+        "last_modified": 1635529998678
+      },
+      {
+        "id": "cinedigm_screambox",
+        "cust": "cinedigm",
+        "name": "Screambox",
+        "status": 1,
+        "url": "https://dashboard.matchpoint.tv/img/scm/channel-logo/MP_LogoSwap_ScreamBox_300x173.png",
+        "description": "Screambox brings you the best in chilling, blood-curdling, terror that will make you jump, scream, and beg for more!",
+        "creation_date": 1620141274715,
+        "last_modified": 1626699261265
+      },
+      {
+        "id": "cinedigm_shout_factory",
+        "cust": "cinedigm",
+        "name": "Shout Factory",
+        "alias": [
+          
+        ],
+        "status": 1,
+        "url": "https://dashboard.matchpoint.tv/img/scm/channel-logo/shout_factory_logo.png",
+        "description": "For Common-ProRes delivery",
+        "creation_date": 1636977212205,
+        "last_modified": 1636977212208
+      },
+      {
+        "id": "cinedigm_so_dramatic",
+        "cust": "cinedigm",
+        "name": "so-dramatic",
+        "status": 1,
+        "url": "http://dashboard.matchpoint.tv/img/scm/channel-logo/so_dramatic_logo.png",
+        "description": "Sought after British & Aussie drama series are now available without a subscription.  From epic period pieces to gripping “who dunnit?” crime serials.\n",
+        "creation_date": 1603867903119,
+        "last_modified": 1614800251217
+      },
+      {
+        "id": "cinedigm_so_real",
+        "cust": "cinedigm",
+        "name": "so-real",
+        "status": 1,
+        "url": "http://dashboard.matchpoint.tv/img/scm/channel-logo/soreal_logo.png",
+        "description": "Brilliantly curated from the best of the UK & Australia.  Incendiary reality series and gripping dramas featuring real lives.  \n",
+        "creation_date": 1603867902473,
+        "last_modified": 1614800224614
+      },
+      {
+        "id": "cinedigm_sodramatic",
+        "cust": "cinedigm",
+        "name": "sodramatic",
+        "status": 1,
+        "url": "http://dashboard.matchpoint.tv/img/scm/channel-logo/so_dramatic_logo.png",
+        "description": "Sought after British & Aussie drama series are now available without a subscription.  From epic period pieces to gripping “who dunnit?” crime serials.\n",
+        "creation_date": 1605003965727,
+        "last_modified": 1614800263598
+      },
+      {
+        "id": "cinedigm_soreal",
+        "cust": "cinedigm",
+        "name": "soreal",
+        "status": 1,
+        "url": "http://dashboard.matchpoint.tv/img/scm/channel-logo/soreal_logo.png",
+        "description": "Brilliantly curated from the best of the UK & Australia.  Incendiary reality series and gripping dramas featuring real lives.  \n",
+        "creation_date": 1603867908920,
+        "last_modified": 1614800233295
+      },
+      {
+        "id": "cinedigm_swank",
+        "cust": "cinedigm",
+        "name": "Swank",
+        "status": 1,
+        "url": "https://dashboard.matchpoint.tv/img/scm/channel-logo/Swank_logo.png",
+        "description": "For Giant",
+        "creation_date": 1628149351126,
+        "last_modified": 1628149351127
+      },
+      {
+        "id": "cinedigm_the_film_detective",
+        "cust": "cinedigm",
+        "name": "The Film Detective",
+        "status": 1,
+        "url": "http://dashboard.matchpoint.tv/img/scm/channel-logo/thefilmdetective_logo.png",
+        "description": "The top-tier destination for classic film and television, featuring an extensive library of vintage content from drive-in classics to Oscar winners. \n",
+        "creation_date": 1616721027583,
+        "last_modified": 1617088556792
+      },
+      {
+        "id": "cinedigm_theelvispresleychannel",
+        "cust": "cinedigm",
+        "name": "TheElvisPresleyChannel",
+        "status": 1,
+        "url": "https://dashboard.matchpoint.tv/img/scm/channel-logo/TheElvisPresley_logo.png",
+        "description": "For Amagi",
+        "creation_date": 1633013939536,
+        "last_modified": 1633022076250
+      },
+      {
+        "id": "cinedigm_theonlywayisessex",
+        "cust": "cinedigm",
+        "name": "theonlywayisessex",
+        "status": 1,
+        "url": "http://dashboard.matchpoint.tv/img/scm/channel-logo/TOWIE_logo.png",
+        "description": "Welcome to the glamorous world of Essex, where viewers get a chance to delve into the real lives of some of the most gorgeous people around, in a truly innovative living soap. The characters featured in this show are real people living their real lives. Viewers will see the tears, the tantrums and the triumphs just like a real soap opera.\n",
+        "creation_date": 1624521390187,
+        "last_modified": 1626368899922
+      },
+      {
+        "id": "cinedigm_tubi_tv",
+        "cust": "cinedigm",
+        "name": "Tubi TV",
+        "alias": [
+          
+        ],
+        "status": 1,
+        "url": "http://dashboard.matchpoint.tv/img/scm/partner-logo/tubitv_logo.png",
+        "description": "For Giant",
+        "creation_date": 1636366723413,
+        "last_modified": 1636366756175
+      },
+      {
+        "id": "cinedigm_viewster",
+        "cust": "cinedigm",
+        "name": "viewster",
+        "status": 1,
+        "url": "http://dashboard.matchpoint.tv/img/scm/channel-logo/viewstar_logo.png",
+        "description": "For AmazonOTT",
+        "creation_date": 1612521094016,
+        "last_modified": 1613655885470
+      },
+      {
+        "id": "cinedigm_vsc",
+        "cust": "cinedigm",
+        "name": "VSC",
+        "status": 1,
+        "url": "https://dashboard.matchpoint.tv/img/scm/channel-logo/vsc_logo.png",
+        "description": "For Giant",
+        "creation_date": 1632832184751,
+        "last_modified": 1632837000505
+      },
+      {
+        "id": "cinedigm_vsc_est",
+        "cust": "cinedigm",
+        "name": "VSC-EST",
+        "status": 1,
+        "url": "https://dashboard.matchpoint.tv/img/scm/channel-logo/VSC-EST_logo.png",
+        "description": "For Giant",
+        "creation_date": 1634813319463,
+        "last_modified": 1634822219684
+      },
+      {
+        "id": "cinedigm_vubiquity",
+        "cust": "cinedigm",
+        "name": "Vubiquity",
+        "status": 1,
+        "url": "https://dashboard.matchpoint.tv/img/scm/channel-logo/Vubiquity_logo.png",
+        "description": "For Giant",
+        "creation_date": 1628149418764,
+        "last_modified": 1628149418765
+      },
+      {
+        "id": "cinedigm_vubiquity_avod",
+        "cust": "cinedigm",
+        "name": "Vubiquity-AVOD",
+        "status": 1,
+        "url": "https://dashboard.matchpoint.tv/img/scm/channel-logo/VubiquityAVOD_logo.png",
+        "description": "For Giant",
+        "creation_date": 1628149735097,
+        "last_modified": 1628149735098
+      },
+      {
+        "id": "cinedigm_whistle",
+        "cust": "cinedigm",
+        "name": "Whistle",
+        "status": 1,
+        "url": "http://dashboard.matchpoint.tv/img/scm/channel-logo/whistle_logo.png",
+        "description": "Sports & Entertainment, our way.\n",
+        "creation_date": 1604502842788,
+        "last_modified": 1624384894961
+      },
+      {
+        "id": "cinedigm_whistlesports",
+        "cust": "cinedigm",
+        "name": "whistlesports",
+        "status": 1,
+        "url": "http://dashboard.matchpoint.tv/img/scm/channel-logo/whistlesports_logo.png",
+        "description": "Sports & Entertainment, our way.\n",
+        "creation_date": 1603867903701,
+        "last_modified": 1624384879663
+      }
+    ]
+  }

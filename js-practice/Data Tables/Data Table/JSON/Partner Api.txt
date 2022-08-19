@@ -1,0 +1,13 @@
+Partner Api :
+
+getAllPartner : /mpingestion/ui/v1.0/partner/{cust}/list : GET
+
+getPartnerById : /mpingestion/ui/v1.0/partner/{cust}/{id} : GET
+
+getPartnerByName : /mpingestion/ui/v1.0/partner/{cust}/byname/{name} : GET
+
+addPartner : /mpingestion/ui/v1.0/partner/{cust}/add : POST
+
+updatePartner : /mpingestion/ui/v1.0/partner/{cust}/{id} : POST
+
+deletePartner : /mpingestion/ui/v1.0/partner/{cust}/{id} : DELETE

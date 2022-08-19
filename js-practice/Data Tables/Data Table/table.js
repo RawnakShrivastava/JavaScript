@@ -1,42 +1,42 @@
-function format ( d ) {
-    // `d` is the original data object for the row
-    return '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;" class="panel">'+
-        '<tr>'+
-            '<td>Full name:</td>'+
-            '<td>'+d.name+'</td>'+
-        '</tr>'+
-        '<tr>'+
-            '<td>ID:</td>'+
-            '<td>'+d.id+'</td>'+
-        '</tr>'+
-        '<tr>'+
-            '<td>UID:</td>'+
-            '<td>'+d.uid+'</td>'+
-        '</tr>'+
-        '<tr>'+
-            '<td>Extra info:</td>'+
-            '<td>And any further details here (images etc)...</td>'+
-        '</tr>'+
-    '</table>';
-}
-function openActions(markStatus) {
-    return '<ul class="action-pannel">' + 
-    '<li><button type = "submit">Update</button></li>' + 
-    '<li><button type = "submit" class = "btn-delete">Delete</button></li>' + 
-    '<li><button class ="btn-mark">'+ markStatus +'</button></li>' +  
-    '</ul>'
-}
-function loadFile(e) {
-    var image = document.getElementById('output');
-    image.src = URL.createObjectURL(e.target.files[0]);
-    // console.log("Image Uploaded...");
-}
+// function format ( d ) {
+//     // `d` is the original data object for the row
+//     return '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;" class="panel">'+
+//         '<tr>'+
+//             '<td>Full name:</td>'+
+//             '<td>'+d.name+'</td>'+
+//         '</tr>'+
+//         '<tr>'+
+//             '<td>ID:</td>'+
+//             '<td>'+d.id+'</td>'+
+//         '</tr>'+
+//         '<tr>'+
+//             '<td>UID:</td>'+
+//             '<td>'+d.uid+'</td>'+
+//         '</tr>'+
+//         '<tr>'+
+//             '<td>Extra info:</td>'+
+//             '<td>And any further details here (images etc)...</td>'+
+//         '</tr>'+
+//     '</table>';
+// }
+// function openActions(markStatus) {
+//     return '<ul class="action-pannel">' + 
+//     '<li><button type = "submit">Update</button></li>' + 
+//     '<li><button type = "submit" class = "btn-delete">Delete</button></li>' + 
+//     '<li><button class ="btn-mark">'+ markStatus +'</button></li>' +  
+//     '</ul>'
+// }
+// function loadFile(e) {
+//     var image = document.getElementById('output');
+//     image.src = URL.createObjectURL(e.target.files[0]);
+//     // console.log("Image Uploaded...");
+// }
 $(document).ready(function() {
     var table = $('#example2').DataTable( {
             'responsive' : true,
             "ajax" : {
-                'url' : './JSON/api.json',
-                'dataSrc' : 'list'
+                'url' : './JSON/api3.json',
+                'dataSrc' : 'data'
             },
             // 'select' : true,
             'columns' : [
@@ -53,26 +53,28 @@ $(document).ready(function() {
                     "defaultContent": '<img id="output" width="200"/>'
                 },
                 {'data' : 'id'},
-                {'data' : 'uid',
-                    render : function(data,type,row){
-                        const firstPart = row.uid.split("_")[0]
-                        return firstPart
-                    }
-                }, 
-                {'data' : 'item_id'},
-                // {'data' : 'name'},
+                // {'data' : 'uid',
+                //     render : function(data,type,row){
+                //         const firstPart = row.uid.split("_")[0]
+                //         return firstPart
+                //     }
+                // }, 
+                // {'data' : 'item_id'},
+                {'data' : 'name'},
+                {'data' : 'cust'},
+                {'data' : 'status'},
                 {
                     "className":      'image-uploader',
                     "orderable":      false,
                     "data":           null,
                     "defaultContent": '<input class="image-uploader" type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)">'
                 },
-                {
-                    "className":      'action-button',
-                    "orderable":      false,
-                    "data":           null,
-                    "defaultContent": ''
-                }
+                // {
+                //     "className":      'action-button',
+                //     "orderable":      false,
+                //     "data":           null,
+                //     "defaultContent": ''
+                // }
             ],
 
             dom: 'Bfrtip',
@@ -84,30 +86,30 @@ $(document).ready(function() {
             //         }
             //     }
             // ],
-            buttons: [
-                {
-                    text: 'Row selected data',
-                    action: function ( e, dt, node, config ) {
-                        var selectedData = [];
-                        var rowData = JSON.stringify(dt.row({ selected : true }).data());
-                        console.log(rowData);
-                        selectedData.push(rowData);
-                        console.log(selectedData[0]);
-                        alert(
-                            'Row data: '+
-                            JSON.stringify( dt.row( { selected: true } ).data() )
-                        );
-                    },
-                    enabled: false
-                },
-                {
-                    text: 'Count rows selected',
-                    action: function ( e, dt, node, config ) {
-                        alert( 'Rows: '+ dt.rows( { selected: true } ).count() );
-                    },
-                    enabled: false
-                }
-            ]
+            // buttons: [
+            //     {
+            //         text: 'Row selected data',
+            //         action: function ( e, dt, node, config ) {
+            //             var selectedData = [];
+            //             var rowData = JSON.stringify(dt.row({ selected : true }).data());
+            //             console.log(rowData);
+            //             selectedData.push(rowData);
+            //             console.log(selectedData[0]);
+            //             alert(
+            //                 'Row data: '+
+            //                 JSON.stringify( dt.row( { selected: true } ).data() )
+            //             );
+            //         },
+            //         enabled: false
+            //     },
+            //     {
+            //         text: 'Count rows selected',
+            //         action: function ( e, dt, node, config ) {
+            //             alert( 'Rows: '+ dt.rows( { selected: true } ).count() );
+            //         },
+            //         enabled: false
+            //     }
+            // ]
         } );
         // table.on( 'select deselect', function () {
         //     var selectedRows = table.rows( { selected: true } ).count();
