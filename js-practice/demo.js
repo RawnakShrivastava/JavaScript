@@ -10,7 +10,7 @@ for (var i = 0; i < arrayOfIntegers.length; i++) {
 
 // Prime number or not
 function isPrime(num) {
-  for (var i = 2; i < num; i++) {
+  for (var i = 1; i < num; i++) { //User 2 commit 
     if (num % i == 0) {
       return false;
     } else {
