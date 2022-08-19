@@ -24,5 +24,5 @@ console.log(isPrime(11));
 function printName(name){
   console.log(name);
 }
-printName("User 5");
+printName("User 6");
 printName("New User 4");
