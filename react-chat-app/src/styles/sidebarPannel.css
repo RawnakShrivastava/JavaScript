@@ -1,20 +1,43 @@
 .sidebar-users{
-    width: 33%;
-    float: left;
+    width: 25%;
+    padding: 15px;
+    padding-right: 0;
 }
 .user-container{
-    margin: 25px 0;
-    background-color: #efefef;
-    border-radius: 12px;
+    margin-bottom: 15px;
+    background-color: #3a3737;
+    border-radius: 8px;
     padding: 1rem;
     display: flex;
     align-items: center;
+    cursor: pointer;
+    color: #efefef;
+}
+.user-container.active{
+    border: 2.5px solid rgb(39, 178, 243);
 }
 .user-container > span{
     margin-left: 10px;
 }
 .user-container .MuiAvatar-root{
     width: 80px;
+    height: 80px;
+    border-radius: 100px;
+}
+.user-avatar{
     border-radius: 100px;
     margin-right: 20px;
+}
+.user-avatar.active{
+    border : 3px solid rgb(39, 243, 39)
+    
+}
+.user-details{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+}
+.user-name{
+    font-size: 20px;
+    color : #efefef;
 }

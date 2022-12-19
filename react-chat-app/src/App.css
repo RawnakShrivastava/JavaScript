@@ -1,0 +1,17 @@
+body{
+    background: #000;
+}
+.App{
+    display: flex;
+}
+.chats{
+    padding: 15px;
+    width: 75%;
+    background: #000;
+}
+.screen{
+    background: #181818;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+}
